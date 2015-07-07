@@ -1,0 +1,267 @@
+/*********************************************************
+				Main Content Styling
+*********************************************************/
+html,
+body {
+    overflow-x: hidden;
+}
+h2 {
+    color: #EA622D;
+}
+
+#chunks-name {
+    color: #EA622D;
+}
+/*********************************************************
+				    Navigation
+*********************************************************/
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    z-index: 10;
+}
+nav {
+    border-radius: 0 !important;
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-family: 'Coda', cursive;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #EA622D !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white !important;
+}
+
+.navbar-toggle:hover {
+    background-color: #EA622D !important;
+}
+.navbar .nav > li > a {
+    color: white;
+}
+
+.nav-bar-scroll{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+/*********************************************************
+				      Jumbotron
+*********************************************************/
+.jumbotron {
+    height: 100vh;
+    background-image: url(img/jumbo-bg.jpg);
+    background-size: cover;
+    background-position: center left;
+    text-align: center;
+    color: white;
+    font-family: 'Inconsolata', ;
+}
+#chunks-tagline {
+    margin-top: 35vh;
+    font-family: 'Coda', cursive;
+    font-size: 1.8em;
+}
+.btn {
+    margin-top: 20px;
+    background-color: #EA622D;
+    border: white;
+    font-family: 'Inconsolata', ;
+}
+.btn:hover {
+    background-color: #000000;
+}
+
+
+/*********************************************************
+				About
+*********************************************************/
+#about {
+        margin-top: -30px;
+       padding-bottom: 30px;
+        max-height: 110vh;
+    }
+
+#about-wrapper h2 {
+    margin-top: 5vh;
+}
+#about-wrapper p {
+    margin-top: 20px;
+    font-size: 1.45em;
+}
+
+
+
+
+/*********************************************************
+				Process
+*********************************************************/
+#process {
+	padding-top: 5vh;
+    background-color: rgb(40,40,40);	
+    min-height: 100vh;
+    padding-bottom: 5vh;
+}
+
+#process h3 {
+        text-decoration: underline;
+        color: white;
+    }
+
+#process p {
+    font-size: 1.3em;
+    color: white;
+}
+
+/*********************************************************
+				Contact
+*********************************************************/
+ #contact {
+        max-height: 100vh;
+        margin-bottom: 10vh;
+    }
+
+  .form-control:focus {
+  border-color: #EA622D;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(234,98,45, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(234,98,45, .6);
+}
+button{
+	color:white !important;
+}
+
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+
+/*********************************************************
+				      Jumbotron
+*********************************************************/
+    #chunks-tagline {
+        margin-top: 35vh;
+        font-family: 'Coda', cursive;
+        font-size: 3.5em;
+    }
+    .btn {
+        margin-top: 20px;
+        background-color: #EA622D;
+        border: white;
+        font-family: 'Inconsolata', ;
+    }
+
+
+/*********************************************************
+				      About
+*********************************************************/
+    #about {
+        margin-top: -30px;
+        background-image: url(img/about-bg.jpg);
+        background-size: cover;
+        height: 100vh;
+    }
+    #about-wrapper {
+        height: 100vh;
+        width: 400px;
+        padding-left: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+    }
+    #about-wrapper h2 {
+        margin-top: 20vh;
+    }
+    #about-wrapper p {
+        margin-top: 30px;
+    }
+    h2 {
+        font-size: 3.5em;
+    }
+    .about-row p {
+        font-size: 1.5em;
+    }
+
+
+/*********************************************************
+				     Process
+*********************************************************/
+    #process {
+        padding-top:25vh;
+        padding-bottom:25vh;
+        background-image: url(img/process.jpg);
+        background-size: cover;
+        height: 100vh;
+    }
+    #process-wrapper {
+    	padding-top: 5vh;
+        padding-bottom: 5vh;
+        background-color: rgba(0, 0, 0, 0.7);
+        min-height: 50vh;
+    }
+    #process h3 {
+        font-size: 2.5em;
+        color: white;
+        text-decoration: none;
+    }
+    #process p {
+        font-size: 1.2em;
+        color: white;
+    }
+    
+
+/*********************************************************
+				      Contact
+*********************************************************/
+    #contact {
+        background-image: url(img/contact.jpg);
+        background-size: cover;
+        height: 100vh;
+    }
+    
+  
+}
+
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+
+
+/*********************************************************
+				      About
+*********************************************************/
+    #about-wrapper {
+        height: 100vh;
+        width: 500px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+    }
+    #about-wrapper h2 {
+        margin-top: 30vh;
+    }
+
+
+    #process {
+        padding-top: 25vh;
+    }
+
+    #process-wrapper {
+        padding-top: 8vh;
+        background-color: rgba(0, 0, 0, 0.7);
+        min-height: 50vh;
+    }
+}
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {} */
